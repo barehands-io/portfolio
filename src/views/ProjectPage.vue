@@ -200,42 +200,48 @@ const projects = ref([
     github: "https://github.com/Katalyst33/portfolio.git",
     description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
-  },   {
+  },
+  {
     name: "My Portfolio Website",
     link: "https://chibuezenmeje.me",
     img: "Gopace.jpg",
     github: "https://github.com/Katalyst33/portfolio.git",
     description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
-  },  {
+  },
+  {
     name: "My Portfolio Website",
     link: "https://chibuezenmeje.me",
     img: "disenvi.jpg",
     github: "https://github.com/Katalyst33/portfolio.git",
     description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
-  }, {
+  },
+  {
     name: "My Portfolio Website",
     link: "https://chibuezenmeje.me",
     img: "Forest.jpg",
     github: "https://github.com/Katalyst33/portfolio.git",
     description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
-  },  {
+  },
+  {
     name: "My Portfolio Website",
     link: "https://chibuezenmeje.me",
     img: "best-choice.jpg",
     github: "https://github.com/Katalyst33/portfolio.git",
     description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
-  },  {
+  },
+  {
     name: "My Portfolio Website",
     link: "https://chibuezenmeje.me",
     img: "locka.jpeg",
     github: "https://github.com/Katalyst33/portfolio.git",
     description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
-  },  {
+  },
+  {
     name: "My Portfolio Website",
     link: "https://chibuezenmeje.me",
     img: "padi.jpeg",
@@ -260,7 +266,7 @@ const projects = ref([
      it is built with an administrator for to manage products and process orders`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
   },
-  {
+  /*  {
     name: "Grand Eagle Travels",
     link: "https://getravelandtours.com/",
     github: "https://github.com/Katalyst33/grand-front",
@@ -271,11 +277,11 @@ const projects = ref([
  information and user.  it also features  a user dashboard for users to provide information and manage destination.`,
 
     roles: ["Ideation,", "Ui / Ux, ", "Frontend,", "Backend "],
-  },
+  },*/
   {
     name: "Wildstream Music",
     link: "https://www.wildstream.ng/",
-    img: "wildstream.jpg",
+    img: "work-wildstream.jpg",
     description: `Wildstream music is one of the largest Nigeria based music streaming service for local and international artists.
      nicked named the soundcloud of Nigeria. it boast a  daily uploads of over 1000 songs.`,
     roles: ["Design,", "Ui / Ux,"],
@@ -298,6 +304,7 @@ function imageLoaded() {
 function isOddNumber(num: number) {
   return num % 2 !== 0;
 }
+
 function isEven(value: number) {
   // return !(value % 2);
   return value % 2 !== 0;
@@ -313,6 +320,7 @@ function isEven(value: number) {
   background: linear-gradient(to top, #1d45508e, #1d45508e),
     url(https://picsum.photos/1280/853/?random=1) no-repeat top center;
 }
+
 .project-img:hover {
   background: linear-gradient(transparent, #24d528),
     url(https://picsum.photos/1280/853/?random=2) no-repeat top center;
@@ -326,6 +334,7 @@ function isEven(value: number) {
     background-position: 468px 0;
   }
 }
+
 .placeholder-img {
   animation-duration: 1.25s;
   animation-fill-mode: forwards;

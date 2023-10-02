@@ -11,7 +11,8 @@
               class="pl-4 text-left capitalize hidden md:block menu-text"
               :to="{ name: item.name }"
             >
-              <i :class="item.icon"></i> {{ item.title }}</router-link
+              <i class="text-2xl pr-2" :class="item.icon"></i>
+              {{ item.title }}</router-link
             >
           </li>
         </ul>

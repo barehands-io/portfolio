@@ -55,12 +55,13 @@
               </div>
               <div class="flex flex-col space-y-10 pt-10">
                 <ul v-for="(item, index) in menuItems" :key="index">
-                  <li @click="toggleSideBar" class="flex items-center">
+                  <li @click="toggleSideBar">
                     <router-link
-                      class="pl-4 text-left capitalize menu-text"
+                      class="pl-4 text-left capitalize menu-text flex items-center"
                       :to="{ name: item.name }"
                     >
-                      <i :class="item.icon"></i> {{ item.title }}</router-link
+                      <i class="text-2xl pr-2" :class="item.icon"></i>
+                      {{ item.title }}</router-link
                     >
                   </li>
                 </ul>
