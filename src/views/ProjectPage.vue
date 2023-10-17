@@ -1,6 +1,6 @@
 <template>
   <div class="py-20">
-    <h1 class="title">Work i have done</h1>
+    <h1 class="title">My Projects</h1>
     <div class="hidden lg:inline">
       <div
         v-for="(item, index) in projects"
@@ -194,60 +194,55 @@ import { computed, ref } from "vue";
 
 const projects = ref([
   {
-    name: "My Portfolio Website",
-    link: "https://chibuezenmeje.me",
-    img: "work-wildstream.jpg",
-    github: "https://github.com/Katalyst33/portfolio.git",
-    description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
-    roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
-  },
-  {
-    name: "My Portfolio Website",
-    link: "https://chibuezenmeje.me",
-    img: "Gopace.jpg",
-    github: "https://github.com/Katalyst33/portfolio.git",
-    description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
-    roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
-  },
-  {
-    name: "My Portfolio Website",
-    link: "https://chibuezenmeje.me",
+    name: "Disenvi",
+    link: "https://www.disenvi.com/",
     img: "disenvi.jpg",
     github: "https://github.com/Katalyst33/portfolio.git",
-    description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
+    description: `Informative Wordpress Website for a Design Agency`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
   },
   {
-    name: "My Portfolio Website",
-    link: "https://chibuezenmeje.me",
+    name: "Forest",
+    link: "https://getforestapp.com/",
     img: "Forest.jpg",
-    github: "https://github.com/Katalyst33/portfolio.git",
-    description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
-    roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
+    // github: "https://github.com/Katalyst33/portfolio.git",
+    description: `Social money app for saving and investing money`,
+    roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend", "Mobile App"],
   },
   {
-    name: "My Portfolio Website",
-    link: "https://chibuezenmeje.me",
+    name: "Best Choice Mechanical",
+    link: "https://best-choicemechanical.com/",
     img: "best-choice.jpg",
-    github: "https://github.com/Katalyst33/portfolio.git",
-    description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
+    // github: "https://github.com/Katalyst33/portfolio.git",
+    description: `Informative Wordpress Website for a HVAC Service company `,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
   },
   {
-    name: "My Portfolio Website",
+    name: "Locka",
     link: "https://chibuezenmeje.me",
     img: "locka.jpeg",
-    github: "https://github.com/Katalyst33/portfolio.git",
-    description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
-    roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
+    // github: "https://github.com/Katalyst33/portfolio.git",
+
+    description: `Monetize your videos, photos, files and any intellectual work`,
+    roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend", "Mobile App"],
   },
   {
-    name: "My Portfolio Website",
-    link: "https://chibuezenmeje.me",
+    name: "Your Padi",
+    link: "https://www.yourpadi.com/",
     img: "padi.jpeg",
-    github: "https://github.com/Katalyst33/portfolio.git",
-    description: `My Portfolio website that  displays my work and my skills. it features a light and dark mode, for users with accessibility challenges`,
+    // github: "https://github.com/Katalyst33/portfolio.git",
+    description: `Business Search engine to find local business in your area you can trust.`,
     roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend"],
+  },
+
+  {
+    name: "Gopace",
+    link: "https://apps.apple.com/ng/app/gopace/id1526033019",
+    img: "Gopace.jpg",
+    // github: "https://github.com/Katalyst33/portfolio.git",
+    description: `Go space is a delivery App for delivering packages and parcels to customers. it features a payment system, and a delivery system.
+     it is built with an administrator for to manage products and process orders`,
+    roles: ["Ideation,", "Design,", "Ui / Ux, ", "Frontend", "Mobile App"],
   },
 
   {

@@ -16,7 +16,7 @@
                 <p class="text-2xl" v-show="showText">{{ currentText }}</p>
               </transition>
             </h1>
-            <p class="text-justify py-4 lg:w-[600px] regular-text">
+            <p class="text-justify py-4 regular-text">
               I'm a seasoned Software Engineer based in Scotland, with expertise
               in creating captivating digital experiences. Leveraging modern web
               development tools like Vue and React, I craft functional and

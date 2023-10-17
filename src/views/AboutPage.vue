@@ -44,7 +44,7 @@
 
     <div class="mx-auto p-6 rounded-lg text-justify regular-text">
       <h1 class="text-2xl font-bold mb-4">
-        Hello! My name is <span class="text-blue-500">Harry</span>.
+        Hello! My name is <span class="text-blue-500">Sam</span>.
       </h1>
 
       <p class="text-lg mb-5">
@@ -140,7 +140,7 @@ const contacts = [
 
 const introduction = `
 
-Hello! My name is Harry. I have a passion for crafting innovative digital solutions that don't just look great but also drive business results. If you're a business owner looking to enhance your online presence, I'm here to help.
+Hello! My name is Sam. I have a passion for crafting innovative digital solutions that don't just look great but also drive business results. If you're a business owner looking to enhance your online presence, I'm here to help.
 
 In today's digital age, a functional and intuitive online interface isn't just an asset—it's essential. I specialize in creating websites and applications that offer engaging user experiences, ensuring that your customers stay longer and engage more with your brand. With tools like React and Vue at my fingertips, I design scalable, responsive, and user-friendly platforms tailored to your business needs.
 
